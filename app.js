@@ -79,6 +79,43 @@ app.get('/foodtruck', (req, res) => {
 	});
 });
 
+app.get('/foodtruckwithfood', (req, res) => {
+	let reqDish = req.query.dish;
+	let returnableList = [];
+	FoodTruck.find({}, function(err, foodTrucksQuery) {
+		if (err) {
+			console.log('error!', err);
+		}
+
+		foodTrucksQuery.forEach(function(ft) {
+			let menu = ft.menu;
+			let tester = false;
+			menu.forEach((el) => {
+				let dishName = el[0];
+				console.log(
+					dishName.toLowerCase(),
+					'||',
+					reqDish.toLowerCase(),
+					'||',
+					dishName.toLowerCase().includes(reqDish.toLowerCase())
+				);
+
+				if (dishName.toLowerCase().includes(reqDish.toLowerCase())) {
+					tester = true;
+				}
+			});
+			console.log(tester);
+			if (tester == true) {
+				returnableList.push(ft);
+				console.log(returnableList);
+			}
+		});
+		console.log('returnableList', returnableList);
+		var jsonReturn = { list: returnableList };
+		res.send(jsonReturn);
+	});
+});
+
 app.get('/addfoodtrucks', (req, res) => {
 	res.send('Add ejs file here');
 });
