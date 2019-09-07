@@ -1,0 +1,227 @@
+{
+	"food_trucks": [
+		{
+			"name": "Lyn's",
+			"location": [ 39.951091, -75.198724 ],
+			"menu": [ [ "Egg White & Cheese", 2.5 ], [ "Egg & Cheese", 2.25 ], [ "Egg & Cheese w/ Vegetable", 3.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Bui's",
+			"location": [ 39.951484, -75.199332 ],
+			"menu": [ [ "Mr. BUI", 5.0 ], [ "Mrs. BUI", 5.0 ], [ "Pepperoni Egg and Cheese", 3.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1400 ], [ "E", 700, 1400 ] ]
+		},
+
+		{
+			"name": "Schmear It",
+			"location": [ 39.956804, -75.194149 ],
+			"menu": [ [ "Signature Schmear", 5.75 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 730, 1500 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Magic Carpet",
+			"location": [ 39.950891, -75.195304 ],
+			"menu": [ [ "Sandwich", 5.5 ], [ "Salad", 5.75 ], [ "Cookie", 1.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 1100, 1500 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Tacos Don Memo",
+			"location": [ 39.95182, -75.19923 ],
+			"menu": [ [ "Burrito", 7.0 ], [ "Tacos", 2.5 ], [ "Torta", 7.0 ] ],
+			"cost": 2,
+			"hours": [ [ "D", 1100, 1500 ], [ "E", 800, 0 ] ]
+		},
+
+		{
+			"name": "New York Gyro Truck",
+			"location": [ 39.95442, -75.20511 ],
+			"menu": [ [ "Chicken with Rice", 6.0 ], [ "Chicken Gyro", 3.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 930, 2030 ], [ "E", 930, 2030 ] ]
+		},
+
+		{
+			"name": "Rio Brazilian Steak Truck",
+			"location": [ 39.95553, -75.19187 ],
+			"menu": [
+				[ "Rio", 10.0 ],
+				[ "Ipanema", 10.0 ],
+				[ "Gloria", 10.0 ],
+				[ "Catete", 10.0 ],
+				[ "Maracana", 10.0 ],
+				[ "Leme", 10.0 ]
+			],
+			"cost": 3,
+			"hours": [ [ "D", 1100, 1700 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "KAMI Philadelphia",
+			"location": [ 39.95759, -75.18939 ],
+			"menu": [
+				[ "Korean Tacos", 7.0 ],
+				[ "Fuji Noodles", 9.0 ],
+				[ "Bulgogi Burger", 8.0 ],
+				[ "Apple Salad", 4.0 ]
+			],
+			"cost": 2,
+			"hours": [ [ "D", 1100, 1700 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Foolish Waffles",
+			"location": [ 39.957119, -75.199547 ],
+			"menu": [
+				[ "Fried Chicken & Waffle", 12.0 ],
+				[ "Banh Mi Wafre ~ Pork Belly", 12.0 ],
+				[ "Hot Eye-Talian", 12.0 ]
+			],
+			"cost": 3,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "The Spot Food Truck",
+			"location": [ 39.957119, -75.199547 ],
+			"menu": [
+				[ "100% Ground Surloin Burger Plain", 5.0 ],
+				[ "Half Pound Cheesesteak Plain", 5.5 ],
+				[ "Cheese Fries", 2.5 ]
+			],
+			"cost": 1,
+			"hours": [ [ "D", 1130, 1700 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Mommy Telly's Famous BBQ",
+			"location": [ 39.95727, -75.18921 ],
+			"menu": [ [ "Chicken", 5.0 ], [ "Pork", 6.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 1100, 1500 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Thai Jai Dee",
+			"location": [ 39.951091, -75.198724 ],
+			"menu": [ [ "Egg White & Cheese", 2.5 ], [ "Egg & Cheese", 2.25 ], [ "Egg & Cheese w/ Vegetable", 3.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Pete's Little Lunch Box Truck",
+			"location": [ 39.95747, -75.18925 ],
+			"menu": [ [ "Egg Breakfast Sandwich", 2.0 ], [ "Chicken or Beef Steaks", 4.75 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 600, 1600 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "QT Vietnamese Sandwich",
+			"location": [ 39.95584, -75.19324 ],
+			"menu": [ [ "QT Special", 6.5 ], [ "Beef Sandwich", 7.5 ] ],
+			"cost": 2,
+			"hours": [ [ "D", 1030, 1500 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "The Jimmy Truck",
+			"location": [ 39.95427, -75.18545 ],
+			"menu": [ [ "Cheesesteak", 6.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Tyson Bees Food Truck",
+			"location": [ 39.95032, -75.19176 ],
+			"menu": [
+				[ "Tofu Over Rice", 5.0 ],
+				[ "Thai Basil Chicken Quessadila", 6.0 ],
+				[ "Tofu Curry (Panang)", 6.0 ]
+			],
+			"cost": 1,
+			"hours": [ [ "D", 1100, 1700 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "La Dominique",
+			"location": [ 39.95531, -75.19059 ],
+			"menu": [ [ "Mexican Crepe", 8.0 ], [ "Italian Crepe", 7.0 ], [ "Tiramisu Crepe", 6.0 ] ],
+			"cost": 2,
+			"hours": [ [ "D", 1200, 1700 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Gigi and Big R",
+			"location": [ 39.951248, -75.19915 ],
+			"menu": [ [ "Chicken Breast", 7.0 ], [ "Chicken Leg & Thigh", 6.0 ], [ "Chicken Wings (3)", 5.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Mexi Cali",
+			"location": [ 39.95363, -75.19878 ],
+			"menu": [ [ "Chicken Burrito Regular", 6.0 ], [ "Chicken Falita Regular", 7.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Biscuit's Biscuits",
+			"location": [ 39.955311, -75.19059 ],
+			"menu": [
+				[ "Platter w/ Buttermilk Biscuit", 7.5 ],
+				[ "Biscuit Breakfast Sandwich", 5.5 ],
+				[ "Biscuit and Gravy", 4.5 ]
+			],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1400 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "PaperMill Food Truck",
+			"location": [ 39.95229, -75.21942 ],
+			"menu": [ [ "Pork Spurrito", 11.0 ] ],
+			"cost": 3,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		},
+
+		{
+			"name": "Pitruco Pizza",
+			"location": [ 39.95628, -75.19486 ],
+			"menu": [ [ "Margherita", 13.0 ], [ "Cheese", 12.0 ], [ "Spicy Garlic", 12.0 ] ],
+			"cost": 3,
+			"hours": [ [ "D", 1700, 2000 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Sugar Philly",
+			"location": [ 39.96287, -75.19731 ],
+			"menu": [ [ "Macarons Reg", 1.5 ], [ "Macarons Large", 2.25 ], [ "Macaron Ice Cream", 3.0 ] ],
+			"cost": 1,
+			"hours": [ [ "D", 1200, 1800 ], [ "E", 0, 0 ] ]
+		},
+
+		{
+			"name": "Yue Kee",
+			"location": [ 39.95252, -75.19885 ],
+			"menu": [
+				[ "Sparerib Tips with Black Bean Sauce", 4.25 ],
+				[ "East Hill Pork", 4.25 ],
+				[ "Pork Belly", 4.25 ]
+			],
+			"cost": 1,
+			"hours": [ [ "D", 700, 1500 ], [ "E", 800, 1900 ] ]
+		}
+	]
+}
