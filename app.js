@@ -149,7 +149,7 @@ app.get('/recommendOne', (req, res) => {
 		});
 		console.log('returnableList', returnableList);
 		var item = returnableList[Math.floor(Math.random() * returnableList.length)];
-		var jsonReturn = { place: returnableList.name };
+		var jsonReturn = { place: item.name };
 		res.send(jsonReturn);
 	});
 });
