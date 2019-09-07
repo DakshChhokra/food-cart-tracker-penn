@@ -22,7 +22,8 @@ var foodTruck = new Schema({
 	location: [ Number ],
 	menu: [ [ String, Number ] ],
 	cost: Number,
-	hours: [ [ 'String', Number, Number ] ]
+	hours: [ [ 'String', Number, Number ] ],
+	type: String
 });
 
 var FoodTruck = mongoose.model('FoodTruck', foodTruck);
@@ -38,7 +39,8 @@ foodTruckArray.forEach((el) => {
 		location: el.location,
 		menu: el.menu,
 		cost: el.cost,
-		hours: el.hours
+		hours: el.hours,
+		type: 'original'
 	});
 
 	currentElement.save((err, docsIn) => {

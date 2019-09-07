@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 //Uncomment the following line to run this on local
-// env = require('node-env-file');
+env = require('node-env-file');
 
 //Uncomment the following line to run this on local
-// env(__dirname + '/.env');
+env(__dirname + '/.env');
 
 //mongoose set up
 const mongooseConfig = { useNewUrlParser: true };
@@ -24,7 +24,8 @@ var foodTruck = new Schema({
 	location: [ Number ],
 	menu: [ [ String, Number ] ],
 	cost: Number,
-	hours: [ [ 'String', Number, Number ] ]
+	hours: [ [ 'String', Number, Number ] ],
+	type: String
 });
 
 var FoodTruck = mongoose.model('FoodTruck', foodTruck);
@@ -76,6 +77,29 @@ app.get('/foodtruck', (req, res) => {
 
 		res.send(jsonReturn);
 	});
+});
+
+app.get('/addfoodtrucks', (req, res) => {
+	res.render('addfoodtrucks');
+});
+app.post('/addfoodtrucks', (req, res) => {
+	let currentElement = new FoodTruck({
+		name: req.body.name,
+		location: req.body.location,
+		menu: req.body.menu,
+		cost: req.body.cost,
+		hours: req.body.hours,
+		type: 'user-added'
+	});
+
+	currentElement.save((err, docsIn) => {
+		if (err) {
+			console.log('error!', err);
+		}
+
+		console.log('The just saved values are ' + docsIn);
+	});
+	res.send('Your foodtruck has been added');
 });
 
 function distance(x1, x2, y1, y2) {
