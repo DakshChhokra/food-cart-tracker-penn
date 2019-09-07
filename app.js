@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 //Uncomment the following line to run this on local
-env = require('node-env-file');
+// env = require('node-env-file');
 
 //Uncomment the following line to run this on local
-env(__dirname + '/.env');
+// env(__dirname + '/.env');
 
 //mongoose set up
 const mongooseConfig = { useNewUrlParser: true };
