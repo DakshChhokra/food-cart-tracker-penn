@@ -1,20 +1,20 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "Server for the food truck application",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Daksh Chhokra",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^2.7.1",
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "mongoose": "^5.6.13",
-    "node-env-file": "^0.1.8",
-    "nodemon": "^1.19.2"
-  }
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Server for the food truck application",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"author": "Daksh Chhokra",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"ejs": "^2.7.1",
+		"express": "^4.17.1",
+		"fs": "0.0.1-security",
+		"mongoose": "^5.6.13",
+		"node-env-file": "^0.1.8",
+		"nodemon": "^1.19.2"
+	}
 }
